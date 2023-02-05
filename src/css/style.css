@@ -1,0 +1,95 @@
+body {
+    background-color: #FFF0F5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Nav-Bar styles */
+
+nav {
+    position: fixed;
+}
+
+#logo {
+    width: 250px;
+    top: 20px;
+    left: 20px;
+}
+  
+#navbar {
+    position: fixed;
+    top: 10px;
+    right: 15px;
+    list-style: none;
+    display: flex;
+}
+
+#navbar li {
+    margin-right: 20px;
+}
+
+#navbar a {
+    text-decoration: none;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #f99ba9;
+    font-size: large;
+    font-weight: 700;
+}
+
+.navbar-links:hover {
+    transform: scale(1.1);
+}
+
+.btn-agendamento {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f99ba9;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+}
+
+.btn-agendamento:hover {
+    text-shadow: 0px 10px 20px 0px rgba(0,0,0,0.2);
+    transform: translateY(-3px);
+}
+
+.btn-agendamento a {
+    color: white;
+    text-shadow: 0px 10px 20px 0px rgba(0,0,0,0.2);
+    font-weight: bolder;
+}
+
+/* Section Style */
+
+section {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top, #f99ba9, #FFF0F5, #FFF0F5);
+}
+
+#section-img {
+    height: 700px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#section-divisor {
+    border-top-left-radius: 100% 70%;
+    border-top-right-radius: 100% 70%;
+    border-width: 20px;
+    border-color: #FFF0F5;
+    border-style: solid;
+    width: 100%;
+    height: 200px;
+    background-color: #FFF0F5;
+    position: absolute;
+    bottom: 0;
+}
